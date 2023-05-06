@@ -4,13 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
     <EnablePackageValidation>true</EnablePackageValidation>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <Authors>Valentino Vukelic (Worly)</Authors>
     <Description>Common web library for all .NET apps.</Description>
     <Version>0.0.1</Version>
+
   </PropertyGroup>
 
   <ItemGroup>
