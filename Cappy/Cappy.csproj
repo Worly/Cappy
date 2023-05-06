@@ -13,7 +13,7 @@
 
     <Authors>Valentino Vukelic (Worly)</Authors>
     <Description>Common web library for all .NET apps.</Description>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
 
   </PropertyGroup>
 
