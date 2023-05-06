@@ -6,7 +6,11 @@
     <Nullable>enable</Nullable>
     <EnablePackageValidation>true</EnablePackageValidation>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <AssemblyVersion>0.0.1</AssemblyVersion>
+
+    <Authors>Valentino Vukelic (Worly)</Authors>
+    <Description>Common web library for all .NET apps.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +18,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+
+    <!-- Add a README.md next to the csproj -->
+    <None Include="README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
